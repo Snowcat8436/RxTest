@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         listViewItems.add(new ItemObjects("Ester", R.drawable.three));
         listViewItems.add(new ItemObjects("Alcohol", R.drawable.four));
         */
-
+        //천문기호 사용
         return listViewItems;
     }
 }
