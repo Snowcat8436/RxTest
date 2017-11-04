@@ -63,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
 
     private List<ItemObjects> getListItemData(){
         List<ItemObjects> listViewItems = new ArrayList<ItemObjects>();
-
+        /*
         listViewItems.add(new ItemObjects("Alkane", R.drawable.works));
         listViewItems.add(new ItemObjects("Ethane", R.drawable.works));
         listViewItems.add(new ItemObjects("Alkyne", R.drawable.works));
         listViewItems.add(new ItemObjects("Benzene", R.drawable.works));
-        /*listViewItems.add(new ItemObjects("Amide", R.drawable.one));
+        listViewItems.add(new ItemObjects("Amide", R.drawable.one));
         listViewItems.add(new ItemObjects("Amino Acid", R.drawable.two));
         listViewItems.add(new ItemObjects("Phenol", R.drawable.three));
         listViewItems.add(new ItemObjects("Carbonxylic", R.drawable.four));
@@ -77,7 +77,10 @@ public class MainActivity extends AppCompatActivity {
         listViewItems.add(new ItemObjects("Ester", R.drawable.three));
         listViewItems.add(new ItemObjects("Alcohol", R.drawable.four));
         */
-        //천문기호 사용
+        //Add Astronomical Symbols for ReactiveX
+        listViewItems.add(new ItemObjects("Moon", R.drawable.moon));
+        listViewItems.add(new ItemObjects("Sun", R.drawable.sun));
+        listViewItems.add(new ItemObjects("Earth", R.drawable.earth));
         return listViewItems;
     }
 }
